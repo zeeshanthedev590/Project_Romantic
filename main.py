@@ -1,0 +1,15 @@
+from turtle import *
+import turtle
+title('See What Is Turtle Making')
+zk = turtle.Turtle()
+zk.color("red", "red")
+zk.begin_fill()
+zk.left(50)
+zk.forward(100)
+zk.circle(40, 180)
+zk.left(260)
+zk.circle(40, 180)
+zk.forward(100)
+zk.end_fill()
+title('A Heart')
+done()
